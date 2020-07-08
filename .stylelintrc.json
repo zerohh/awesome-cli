@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "stylelint-config-sass-guidelines",
+        "stylelint-config-standard"
+    ],
+    "plugins": [
+        "stylelint-order",
+        "stylelint-declaration-use-variable"
+    ],
+    "rules": {
+        "color-no-invalid-hex": true,
+        "string-no-newline": true,
+        "unit-no-unknown": true,
+        "property-no-unknown": true,
+        "elector-pseudo-class-no-unknown": [
+            true,
+            {
+                "ignorePseudoClasses": ["global", "string"]
+            }
+        ]
+    },
+    "ignoreFiles": ["node_modules/**/*"]
+}
