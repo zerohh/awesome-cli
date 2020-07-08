@@ -15,8 +15,6 @@ module.exports = {
     "style", // 格式
     "test" // 测试
   ],
-  "rules": {
-    "body-leading-blank": [1, "always"],
-    "body-max-line-length": [2, "always", 100]
-  }
+  "body-leading-blank": [1, "always"],
+  "body-max-line-length": [2, "always", 100]
 };
