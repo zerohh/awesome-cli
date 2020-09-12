@@ -21,5 +21,8 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'import/no-extraneous-dependencies': 0,
+    'react/react-in-jsx-scope': 0,
+    'react/jsx-filename-extension': 0,
   },
 };
